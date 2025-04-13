@@ -10,8 +10,7 @@ export default function Page() {
           <h2 className="text-[62px]">Egor Limonov</h2>
           <p className="text-[32px] text-secondary"><span className="mr-2">&#62;</span> Front-end developer</p>
         </div>
-        <div>
-          <p className="text-quinary">{"// complete the game to continue"}</p>
+        <div> 
           <p className="text-quinary">{"// you can also see it on my Github page"}</p>
           <p><span className="text-secondary">const</span> <span className="text-tertiary">githubLink</span> = <a className="text-quaternary underline" target="_blank" href="https://github.com/lipowerad">“https://github.com/lipowerad”</a></p>
         </div>
