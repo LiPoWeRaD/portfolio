@@ -15,7 +15,7 @@ const CardProject = ({name, nameCommit, img, description, link}: CardProjectProp
                 {name} <span className="text-quinary">{"//"}{nameCommit}</span>
             </h2>
             <div className={`flex flex-col border border-[#1E2D3D] rounded-xl overflow-hidden`}>                
-                <Image src={img} alt="ProjectCinema" width={300} height={200} sizes="" className="w-full h-[200px] object-cover" />
+                <Image src={img} alt={nameCommit} width={300} height={200} sizes="" className="w-full h-[200px] object-cover" />
                 {/* Нижняя часть - контент */}
                 <div className="p-4 bg-dark flex flex-col gap-y-4">
                     <p className='text-quinary'>{description}</p>
