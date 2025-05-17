@@ -32,6 +32,7 @@ export default {
         "SiteFilm1": "url('/SiteFilm1.png')",
         "SiteFilm2": "url('/SiteFilm2.png')",
         "SiteFilm3": "url('/SiteFilm3.jpg')",
+        "SiteFilm4": "url('/SiteFilm4.jpg')",
       },
       fontFamily: {
         FiraCode: ["FiraCode", "monospace", "sans-serif"],
